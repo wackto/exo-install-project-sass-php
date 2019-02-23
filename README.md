@@ -1,6 +1,6 @@
-#Sass and PHP files
+# Sass and PHP files
 
-### First install
+## First install
 
 ```bash
 npm install
@@ -30,12 +30,12 @@ Your file would look like this:
 ...
 ```
 
-### During development
+## During development
 
 ```bash
 npm run watch
 ```
-### build and save CSS and JS files
+## build and save CSS and JS files
 
 ```bash
 npm run build
