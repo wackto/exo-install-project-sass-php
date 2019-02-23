@@ -1,0 +1,46 @@
+{
+  "name": "zebra",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --mode production",
+    "build:dev": "NODE_ENV=development webpack --mode development",
+    "watch": "NODE_ENV=development webpack --watch --mode development"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Sergio Mendolia",
+  "license": "GNU GPL 3",
+  "private": false,
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "~3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-regenerator": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "autoprefixer": "^9.4.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^0.28.11",
+    "expose-loader": "^0.7.5",
+    "file-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.10.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.15.3",
+    "regenerator-runtime": "^0.12.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.19.1",
+    "style-resources-loader": "^1.2.1",
+    "vue-eslint-parser": "^3.3.0",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
