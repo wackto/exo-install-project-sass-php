@@ -32,11 +32,14 @@ Your file would look like this:
 
 ## During development
 
+Leave this command running.
 ```bash
 npm run watch
 ```
+
 ## build and save CSS and JS files
 
+Before going to production, launch this
 ```bash
 npm run build
 ```
