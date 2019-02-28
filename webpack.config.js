@@ -53,7 +53,7 @@ module.exports = {
             loader: 'style-resources-loader',
             options: {
               patterns: [
-                path.resolve(__dirname, 'node_modules/bootstrap/scss/bootstrap.scss'),
+
               ],
             },
           },
